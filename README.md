@@ -3,13 +3,13 @@
 
 This is a web-based Library Management System developed using Streamlit and MySQL. It provides functionality for students and administrators to manage library operations such as viewing books, issuing books, and managing book records. The system aims to make library management efficient and reduce manual errors.
 
-(a) How to Run the Project
+**(a) How to Run the Project**
 
-i.Prerequisites:-
+**Prerequisites:-**
 
-Python 3.7 or later: Ensure you have Python installed on your system.
+Ensure you have Python installed on your system.
 
-ii.Required Libraries:-
+**Required Libraries:-**
 
 mysql.connector
 
@@ -19,7 +19,7 @@ pandas
 
 datetime
 
-MySQL Database:
+**MySQL Database:**
 
 Set up a MySQL database with the required tables:-
 
@@ -31,7 +31,7 @@ Issue: Tracks issued books (issue ID, book ID, student ID).
 
 Admin: Stores admin credentials
 
-Running the Application:-
+**Running the Application:-**
 
 Navigate to the directory containing the script.
 
@@ -39,7 +39,7 @@ Launch the Streamlit application:streamlit run LMS.py
 
 Open the displayed local URL in your web browser.
 
-(b) Design Choices Made
+**(b) Design Choices Made**
 
 Web Framework:Streamlit was chosen for its simplicity and interactive UI capabilities, allowing quick prototyping and deployment of web applications.
 
@@ -53,21 +53,17 @@ Students: View books, issue books.
 
 Admins: Add, delete, and view issued books.
 
-(c) Assumptions and Limitations
+**(c) Assumptions and Limitations**
 
-Assumptions:-
+**Assumptions:-**
 
 Data Validity:
 
-User IDs and passwords are valid and unique.
+User IDs and passwords are valid and unique.Book IDs and names are consistent and accurate.
 
-Book IDs and names are consistent and accurate.
+Fixed Database Schema:The database schema remains unchanged; modifications would require code updates.
 
-Fixed Database Schema:
-
-The database schema remains unchanged; modifications would require code updates.
-
-Limitations:-
+**Limitations:-**
 
 Security:No encryption for sensitive data such as passwords.
 
