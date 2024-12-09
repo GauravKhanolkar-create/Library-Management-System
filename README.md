@@ -1,3 +1,3 @@
 # Library-Management-System
 Introduction
-The Library Management System is designed to automate the process of managing a library's collection of books and transactions. This system allows for easy check-in/check-out of books, as well as tracking the availability of books. The system aims to make library management efficient and reduce manual errors.
+This is a web-based Library Management System developed using Streamlit and MySQL. It provides functionality for students and administrators to manage library operations such as viewing books, issuing books, and managing book records. The system aims to make library management efficient and reduce manual errors.
